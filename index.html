@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_top">
+            <img class="img_header" src="./img/logo_header.png" alt="">
+        <div class="search">
+            <input class="input_search" type="text" placeholder="Tìm kiếm sản phẩm...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="nav_header-top">
+            <li class="vertical"><a href="">Tấc cả sản phẩm</a>
+            </li>
+            <li class="vertical"><a href="">Hướng Dẫn</a>
+            </li>
+            <li class="vertical"><a href="">Nạp Tiền</a>
+            </li>
+            <li><a href="">Liên Hệ</a>
+                
+            </li>
+        </ul>
+        </div>
+        <div class="nav">
+            <div class="nav_mobi">
+                <div class="bar">
+                    
+                    <label class="center" for="check"><i class="fa-solid fa-bars"></i></label>
+                    <img class="img_header-mobi center" src="./img/logo_header.png" alt="">
+                    <label for="open_cart"><i  class="fa-solid fa-cart-shopping center"></i></label>
+                    <input type="radio" hidden  id="check" class="input_check" name="check_nav">
+                    <input type="radio"  hidden id="check_close" class="input_check close" name="check_nav">
+                    <ul class="section_mobi">
+                        <label for="check_close"><li><i class="fa-solid fa-xmark"></i></li></label>
+
+                        <ul class="nav_section-mobi">
+                        
+                            <label for="menu"><li class="menu">MENU</li></label>
+                            
+                            <label for="product_mobi"><li class="product">SAN PHAM</li></label>
+
+                        </ul>
+                        <input type="radio" hidden  id="menu" class="check_menu" name="check">
+                        <ul class="sub_nav_menu-mobi">
+                            <li>Tất cả sản phẩm</li>
+                            <li>Hướng Dẫn</li>
+                            <li>Nạp Tiền</li>
+                            <li>Liên He </li>
+                        </ul>
+                        <input type="radio" name="check" hidden id="product_mobi" class="product_list">
+                        <ul class="sub_nav_product-mobi">
+                            <li>VIA FACEBOOK</li>
+                            <li>CLONE FACEBOOK</li>
+                            <li>BM & FANGE</li>
+                            <li>ĐĂNG XUẤT</li>
+                        </ul>
+                    </ul>
+                    
+                </div>
+
+                <input type="radio" hidden id="open_cart" class="check_cart" name="check_nav">
+                <input type="radio" hidden  id="check_close-cart" class="input_check close_cart" name="check_nav">
+                <div class="shopping">
+                    <label for="check_close-cart"><li><i class="fa-solid fa-xmark"></i></li></label>
+                    <div class="cart">
+
+                        <p class="header_text">GIỎ HÀNG</p>
+                        <div class="product_cart">
+                            <div class="product">
+                                <img class="img_product" src="./img/img_bestseller/image 8.png" alt="">
+                                <div class="text">
+                                    <p class="text_desc-product">Via Việt Trên 22 Tuổi 20-1000 Fr...</p>
+                                    <p class="sum_price">Tồng tiền: 10.000đ</p>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <button class="show_product">XEM GIỎ HÀNG</button>
+                                <button class="pay">THANH TOAN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+           
+           
+            <ul class="section width_all">
+                <li><a href="">VIA FACEBOOK</a><i class="fa-solid fa-down-long"></i></li>
+                <li><a href="">CLONE FACEBOOK</a></li>
+                <li><a href="">BM & FANGAGE</a></li>
+                <li><a href="">KHÓA HỌC</a></li>
+                <li><a href="">TĂNG LIKE & SUB</a></li>
+                <li><a href="">ĐĂNG NHẬP</a></li>
+                <li ><a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i><span class="number_product-buy">1</span></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="slider">
+        <i class="fa-solid fa-less-than"></i>
+        <div class="content_slider width_all">
+        
+            <div class="text_slider">
+                <h3 class="text-heading">Nền tảng mua bán via Facebook, 
+                    Clone, BM, tài nguyên số 1 Việt Nam</h3>
+                <p class="text-desc">Giao dịch hoàn toàn tự động, nhân viên hộ trợ nhanh 
+                    chóng, tài nguyên an toàn bảo mật</p>   
+                <p class="text-desc">Tự hào là đối tác uy tíncủa hàng trăm doanh nghiệp</p>       
+        </div>
+        <div class="img_slider">
+            <img src="./img/silder_img.png" alt="">
+        </div>
+        
+        </div>
+        <i class="fa-solid fa-greater-than"></i>
+    </div>
+    <div class="main width_all">
+        <div class="product-list  ">
+            <div class="product-item">
+                <img src="./img/img_product/1.png" alt="">
+                <div class="text">
+                    <h4 class="text-heading">Giao dịch tự động</h4>
+                    <p class="text-desc">Hệ thống của chúng tôi được
+                        vận hành tự động 24/7/365 . 
+                        Không kể lễ tết, ngày nghỉ</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="./img/img_product/2.png" alt="">
+                <div class="text">
+                    <h4 class="text-heading">Giao dịch tự động</h4>
+                    <p class="text-desc">Hệ thống của chúng tôi được
+                        vận hành tự động 24/7/365 . 
+                        Không kể lễ tết, ngày nghỉ</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="./img/img_product/3.png" alt="">
+                <div class="text">
+                    <h4 class="text-heading">Giao dịch tự động</h4>
+                    <p class="text-desc">Hệ thống của chúng tôi được
+                        vận hành tự động 24/7/365 . 
+                        Không kể lễ tết, ngày nghỉ</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="./img/img_product/4.png" alt="">
+                <div class="text">
+                    <h4 class="text-heading">Giao dịch tự động</h4>
+                    <p class="text-desc">Hệ thống của chúng tôi được
+                        vận hành tự động 24/7/365 . 
+                        Không kể lễ tết, ngày nghỉ</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="./img/img_product/5.png" alt="">
+                <div class="text">
+                    <h4 class="text-heading">Giao dịch tự động</h4>
+                    <p class="text-desc">Hệ thống của chúng tôi được
+                        vận hành tự động 24/7/365 . 
+                        Không kể lễ tết, ngày nghỉ</p>
+                </div>
+            </div>
+        </div>
+        <div class="bestseller">
+            <div class="header_bestseller shared">
+                <h3>BÁN CHẠY NHẤT</h3>
+                <h3 class="more-info">XEM THÊM ></h3>
+            </div>
+            <div class="product_bestseller-list">
+                <div class="product_bestseller-item">
+                    <p  class="sale">-50%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt Trên 22 Tuổi 20-1000 
+                            Fr (Lỗi không có Pass Gmail)...</p>
+                        <p class="quantity-product">Có sẫn 1080 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">50.000d</p>
+                            <p class="price-new">25.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_bestseller-item">
+                    <p  class="sale">-50%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt Trên 22 Tuổi 20-1000 
+                            Fr (Lỗi không có Pass Gmail)...</p>
+                        <p class="quantity-product">Có sẫn 1080 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">50.000d</p>
+                            <p class="price-new">25.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_bestseller-item">
+                    <p  class="sale">-50%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt Trên 22 Tuổi 20-1000 
+                            Fr (Lỗi không có Pass Gmail)...</p>
+                        <p class="quantity-product">Có sẫn 1080 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">50.000d</p>
+                            <p class="price-new">25.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_bestseller-item">
+                    <p  class="sale">-50%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt Trên 22 Tuổi 20-1000 
+                            Fr (Lỗi không có Pass Gmail)...</p>
+                        <p class="quantity-product">Có sẫn 1080 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">50.000d</p>
+                            <p class="price-new">25.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_bestseller-item">
+                    <p  class="sale">-50%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt Trên 22 Tuổi 20-1000 
+                            Fr (Lỗi không có Pass Gmail)...</p>
+                        <p class="quantity-product">Có sẫn 1080 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">50.000d</p>
+                            <p class="price-new">25.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="verification">
+            <div class="header_verification shared">
+                <h3>VIA XÁC MINH DANH TÍNH</h3>
+                <h3 class="more-info">XEM THÊM ></h3>
+            </div>
+            <div class="product_verification-list">
+                <div class="product_verification-item">
+                    <p  class="sale">-70%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt XMDT Úp Phôi Tích 
+                            Xanh Đã Vượt 956 ( CP Email )...</p>
+                        <p class="quantity-product">Có sẫn 80 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">100.000d</p>
+                            <p class="price-new">70.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_verification-item">
+                    <p  class="sale">-70%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt XMDT Úp Phôi Tích 
+                            Xanh Đã Vượt 956 ( CP Email )...</p>
+                        <p class="quantity-product">Có sẫn 80 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">100.000d</p>
+                            <p class="price-new">70.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_verification-item">
+                    <p  class="sale">-70%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt XMDT Úp Phôi Tích 
+                            Xanh Đã Vượt 956 ( CP Email )...</p>
+                        <p class="quantity-product">Có sẫn 80 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">100.000d</p>
+                            <p class="price-new">70.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                <div class="product_verification-item">
+                    <p  class="sale">-70%</p>
+                    <img src="./img/img_bestseller/image 8.png" alt="">
+                    <div class="text">
+                        <p class="text-desc">Via Việt XMDT Úp Phôi Tích 
+                            Xanh Đã Vượt 956 ( CP Email )...</p>
+                        <p class="quantity-product">Có sẫn 80 sản phẩm</p>
+                        <div class="price">
+                            <p class="price-old">100.000d</p>
+                            <p class="price-new">70.000d</p>
+                        </div>
+                        <button class="buy">MUA NGAY</button>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
